@@ -2,8 +2,6 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import { useDispatch } from "react-redux";
 import { toggleDialog } from "../utils/viewInfoSlice";
-import { Dialog, DialogContent } from "@mui/material";
-import ViewInfo from "./ViewInfo";
 const ShowTable = () => {
   const dispatch = useDispatch();
 
@@ -64,11 +62,6 @@ const ShowTable = () => {
             </tr>
           </tbody>
         </table>
-        <Dialog>
-          <DialogContent>
-            <ViewInfo />
-          </DialogContent>
-        </Dialog>
       </div>
     </>
   );

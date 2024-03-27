@@ -70,7 +70,6 @@ const LeadManagement = () => {
       <LeadManagement3 />
       <LeadManagement4 />
       <LeadManagement5 />
-      <ViewInfo />
     </div>
   );
 };
